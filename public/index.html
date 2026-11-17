@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script>
+      tailwind = window.tailwind || {}
+      tailwind.config = {
+        darkMode: 'class',
+        corePlugins: {
+          preflight: false,
+        },
+        theme: {
+          extend: {
+            colors: {
+              'inverse-surface': '#2e3132',
+              surface: '#f8f9fa',
+              'tertiary-fixed': '#d0e4ff',
+              'on-tertiary-fixed': '#001d35',
+              'secondary-fixed-dim': '#a1d494',
+              outline: '#74777d',
+              'tertiary-fixed-dim': '#b0c9e8',
+              'error-container': '#ffdad6',
+              'on-primary-fixed': '#0b1d2d',
+              'surface-container-high': '#e7e8e9',
+              'on-error': '#ffffff',
+              'surface-bright': '#f8f9fa',
+              background: '#f8f9fa',
+              'on-surface': '#191c1d',
+              'tertiary-container': '#112b43',
+              'on-tertiary': '#ffffff',
+              primary: '#041627',
+              'primary-container': '#1a2b3c',
+              'surface-dim': '#d9dadb',
+              tertiary: '#00162a',
+              'on-background': '#191c1d',
+              'surface-container-highest': '#e1e3e4',
+              'secondary-fixed': '#bcf0ae',
+              'inverse-primary': '#b7c8de',
+              'surface-tint': '#4f6073',
+              'surface-container': '#edeeef',
+              'primary-fixed-dim': '#b7c8de',
+              'on-primary-fixed-variant': '#38485a',
+              'primary-fixed': '#d2e4fb',
+              'on-tertiary-container': '#7b93b0',
+              'outline-variant': '#c4c6cd',
+              'on-secondary': '#ffffff',
+              'surface-container-low': '#f3f4f5',
+              'on-primary-container': '#8192a7',
+              error: '#ba1a1a',
+              'on-surface-variant': '#44474c',
+              'on-secondary-fixed': '#002201',
+              'on-primary': '#ffffff',
+              'surface-variant': '#e1e3e4',
+              secondary: '#3b6934',
+              'surface-container-lowest': '#ffffff',
+              'on-secondary-container': '#3f6d38',
+              'secondary-container': '#b9eeab',
+              'on-tertiary-fixed-variant': '#304962',
+              'on-error-container': '#93000a',
+              'on-secondary-fixed-variant': '#23501e',
+              'inverse-on-surface': '#f0f1f2',
+            },
+            fontFamily: {
+              headline: ['Inter', 'sans-serif'],
+              body: ['Inter', 'sans-serif'],
+              label: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <title>vue_test</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but vue_test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
